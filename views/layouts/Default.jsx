@@ -1,8 +1,9 @@
 const React = require('react')
+const { create } = require('../../controllers/dataController')
 
 class Default extends React.Component {
   render () {
-    const { blog, title } = this.props
+    const { blog, title, createNewBlog} = this.props
     return (
       <html>
         <head>
@@ -11,8 +12,8 @@ class Default extends React.Component {
         </head>
         <body>
           <nav>
-            <a href='/blog'>Go to Home Page For Blog</a>
-            <a href='/blog/new'>Create a New blog</a><br />
+            <a href='/blog'>Go to Home Page For Blog</a> 
+            {createNewBlog && <a href='/blog/new'>Create a New blog</a>} <br />
             {blog ? <a href={`/blog/${blog._id}/edit`}> {blog.name} Edit Page </a> : ''}<br />
             {blog ? <a href={`/blog/${blog._id}`}>{blog.name} Show Page</a> : ''}<br />
           </nav>
@@ -25,6 +26,7 @@ class Default extends React.Component {
           <a href="https://www.instagram.com/theodoreable_doodle/">FOLLOW ON INSTAGRAM FOR MORE PAWVENTURES</a><br /><br />
           
           {this.props.children}
+        
         </body>
       </html>
     )
@@ -32,3 +34,4 @@ class Default extends React.Component {
 }
 
 module.exports = Default
+
