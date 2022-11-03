@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Sigmar+One&display=swap');
+
+body{
+    background: url(https://i.pinimg.com/474x/fc/32/16/fc32167db8182876cdca11c89fba1ef3.jpg);
+    margin: 10px;
+     background-repeat: no-repeat; 
+    background-size: cover; 
+    text-align: center;
+}   
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    font-size: 55px;
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow: 2px 2px grey;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: blanchedalmond;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #3c3130;
+    font-size: 1.5em;
+    text-align: center;
+    background: rgb(201, 174, 140);
+    margin: 10px;
+  
+    ;
+  }
+  
+  a:hover {
+    color: #a79d93;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3130;
+    font-size: 1.3em;
+  }
+  
+  input[type=text] {
+    padding: 1.3em;
+  }
+  
+  input[type=submit] {
+    padding: .3em;
+    color: #3c3130;
+    background: #d7ccb5;
+    font-size: 1em;
+    /* border-radius: 10%; */
+  }
+
+  #home {
+    border-radius: 300px;
+    max-width: 25em;
+    max-height: 25em; 
+  }
+
+  img {
+    max-width: 2em;
+    max-height: 2em;
+  }
