@@ -38,3 +38,19 @@ follow along on all of Theo's adventures! When on blog, visitors will be able to
 ![](delete.png)
 
 <br>
+
+TRELLO
+
+<br>
+
+![](Screen%20Shot%202022-11-04%20at%2010.20.20%20PM.png)
+
+<br>
+
+EDR
+
+<br>
+
+![](Screen%20Shot%202022-11-04%20at%2010.13.38%20PM.png)
+
+Technologies used: Javascript, CSS, HTML, Mongoose, MongoDB, Nodejs
